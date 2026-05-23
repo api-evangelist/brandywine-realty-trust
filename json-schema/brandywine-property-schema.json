@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.github.io/brandywine-realty-trust/json-schema/brandywine-property-schema.json",
+  "title": "Brandywine Property",
+  "description": "Schema representing a Brandywine Realty Trust commercial real estate asset (office, life science, mixed-use, multifamily, retail, or education).",
+  "type": "object",
+  "required": ["propertyId", "name", "market", "propertyType"],
+  "properties": {
+    "propertyId": {
+      "type": "string",
+      "description": "Unique identifier for the property within the Brandywine portfolio."
+    },
+    "name": {
+      "type": "string",
+      "description": "Property name or building name (e.g. 'Cira Centre', 'FMC Tower', '3151 Market')."
+    },
+    "address": {
+      "type": "object",
+      "description": "Physical street address of the property.",
+      "properties": {
+        "street": {"type": "string"},
+        "city": {"type": "string"},
+        "state": {"type": "string"},
+        "zipCode": {"type": "string"},
+        "country": {"type": "string", "default": "US"}
+      }
+    },
+    "market": {
+      "type": "string",
+      "enum": [
+        "Philadelphia",
+        "Philadelphia Suburbs",
+        "South Jersey",
+        "Wilmington",
+        "Austin",
+        "Northern Virginia/DC Metro",
+        "Suburban Maryland/DC Metro",
+        "Richmond"
+      ],
+      "description": "Brandywine reporting market in which the property is located."
+    },
+    "submarket": {
+      "type": "string",
+      "description": "Submarket designation within the parent market (e.g. 'University City', 'Radnor', 'Conshohocken')."
+    },
+    "propertyType": {
+      "type": "string",
+      "enum": [
+        "office",
+        "move-in-ready-office",
+        "laboratory",
+        "mixed-use",
+        "residential",
+        "retail",
+        "education"
+      ],
+      "description": "Category of the property as classified by Brandywine."
+    },
+    "developmentProject": {
+      "type": "string",
+      "description": "Master-planned development the property belongs to (e.g. 'Schuylkill Yards', 'uCity Square', 'Uptown ATX', 'Broadmoor', 'Discovery Point')."
+    },
+    "squareFootage": {
+      "type": "number",
+      "description": "Total rentable square footage of the building."
+    },
+    "yearBuilt": {
+      "type": "integer",
+      "description": "Year the property was originally completed or delivered."
+    },
+    "occupancyRate": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Current occupancy rate as a percentage."
+    },
+    "operationalStatus": {
+      "type": "string",
+      "enum": ["operational", "under-construction", "in-development", "redevelopment"],
+      "description": "Current lifecycle status of the property."
+    },
+    "leedCertification": {
+      "type": "string",
+      "enum": ["Certified", "Silver", "Gold", "Platinum", "None"],
+      "description": "LEED green building certification level."
+    },
+    "energyStarCertified": {
+      "type": "boolean",
+      "description": "Whether the property holds ENERGY STAR certification."
+    },
+    "amenities": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "On-site amenities (e.g. fitness center, conference center, food hall, parking)."
+    }
+  }
+}

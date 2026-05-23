@@ -1,0 +1,110 @@
+vocabulary:
+  name: Brandywine Realty Trust Vocabulary
+  description: >-
+    Key terms, concepts, and taxonomy for Brandywine Realty Trust, a publicly
+    traded real estate investment trust (NYSE: BDN) focused on office, life
+    science, and mixed-use real estate in Philadelphia, Austin, and
+    Washington, D.C.
+  version: '1.0'
+  created: '2026-05-23'
+  modified: '2026-05-23'
+  tags:
+    - Commercial Real Estate
+    - Life Science Real Estate
+    - Philadelphia
+    - REIT
+
+  domains:
+    - name: Real Estate Investment Trust
+      description: REIT structure and corporate finance concepts
+      terms:
+        - term: REIT
+          definition: Real Estate Investment Trust. A company that owns income-producing real estate and distributes at least 90% of taxable income to shareholders as dividends.
+        - term: FFO
+          definition: Funds From Operations. Key REIT performance metric calculated as net income plus depreciation minus gains on property sales.
+        - term: CAD
+          definition: Cash Available for Distribution. FFO adjusted for recurring capital expenditures and straight-line rent, used to evaluate REIT dividend coverage.
+        - term: NAV
+          definition: Net Asset Value. The estimated value of a REIT's properties minus liabilities, used to assess intrinsic value.
+        - term: Cap Rate
+          definition: Capitalization Rate. Net operating income divided by property value, used to evaluate real estate investment returns.
+        - term: NOI
+          definition: Net Operating Income. Revenue from a property minus operating expenses, excluding depreciation and debt service.
+        - term: Same-Store NOI
+          definition: NOI growth comparison for properties owned for the same period in consecutive years, excluding acquisitions and dispositions.
+
+    - name: Property Types
+      description: Categories of real estate assets in Brandywine's portfolio
+      terms:
+        - term: Class A Office
+          definition: Premium office buildings with high-quality finishes, amenities, and locations commanding above-market rents.
+        - term: Life Science / Laboratory
+          definition: Purpose-built or converted wet-lab and dry-lab space for biotech, pharmaceutical, and research tenants, a growing share of Brandywine's portfolio anchored in University City and uCity Square.
+        - term: Move-In Ready Office
+          definition: Pre-built suites offered with finished interiors, furniture, and infrastructure to compress tenant onboarding timelines.
+        - term: Mixed-Use
+          definition: Properties combining office, retail, residential, hospitality, or other uses in a single development.
+        - term: Multifamily / Residential
+          definition: Apartment units within standalone or mixed-use buildings (e.g. Avira at Schuylkill Yards).
+        - term: Retail
+          definition: Ground-floor or stand-alone retail space, often integrated into mixed-use developments.
+        - term: Education
+          definition: Academic and university-adjacent buildings within Brandywine's portfolio.
+
+    - name: Markets
+      description: Brandywine reporting markets and submarkets
+      terms:
+        - term: Philadelphia CBD
+          definition: Center City Philadelphia office and mixed-use buildings, including Cira Centre and FMC Tower in University City.
+        - term: University City
+          definition: West Philadelphia submarket anchored by University of Pennsylvania, Drexel University, and CHOP; home to Schuylkill Yards and uCity Square.
+        - term: Philadelphia Suburbs
+          definition: Suburban Philadelphia submarkets including Radnor, Conshohocken, Plymouth Meeting, and King of Prussia.
+        - term: Austin
+          definition: Brandywine's Texas market, anchored by Broadmoor / Uptown ATX in North Austin.
+        - term: Washington, D.C. Metro
+          definition: Northern Virginia and Suburban Maryland properties, including Discovery Point in College Park.
+        - term: Richmond
+          definition: Brandywine's Virginia portfolio of suburban office properties.
+
+    - name: Master-Planned Developments
+      description: Brandywine's flagship multi-phase development projects
+      terms:
+        - term: Schuylkill Yards
+          definition: Innovation neighborhood in University City, Philadelphia, adjacent to Amtrak's 30th Street Station; includes FMC Tower, Cira Centre, Bulletin Building, 3151 Market, 3025 JFK, 3020 Market, 3001 JFK, 3000 Market, Avira residential, and Gather Food Hall.
+        - term: uCity Square
+          definition: Mixed-use life science and innovation district in University City, Philadelphia.
+        - term: Uptown ATX
+          definition: 66-acre mixed-use master-planned community in North Austin positioned as the city's 'second downtown'.
+        - term: Broadmoor
+          definition: Mixed-use redevelopment of the historic Broadmoor campus in North Austin.
+        - term: Discovery Point
+          definition: Mixed-use development in College Park, Maryland, adjacent to the University of Maryland campus.
+
+    - name: ESG & Sustainability
+      description: ESG frameworks and certifications used in Brandywine's reporting
+      terms:
+        - term: GRESB
+          definition: Global Real Estate Sustainability Benchmark. Annual ESG assessment used by real estate investors; Brandywine publishes public disclosures.
+        - term: Green Lease Leader
+          definition: IMT/DOE recognition for sustainable lease language; Brandywine holds Platinum designation.
+        - term: ISS Governance Quality Score
+          definition: Institutional Shareholder Services governance rating from 1 (best) to 10 (worst); Brandywine holds a score of 1.
+        - term: MSCI ESG Rating
+          definition: Letter-grade ESG rating from MSCI ESG Research; Brandywine holds an A rating.
+        - term: LEED
+          definition: Leadership in Energy and Environmental Design. USGBC green-building certification system.
+        - term: ENERGY STAR
+          definition: EPA building energy-performance certification for the top-performing buildings in a benchmark cohort.
+
+    - name: Tenant & Investor Surfaces
+      description: Stakeholder-facing channels and data feeds
+      terms:
+        - term: Tenant Portal
+          definition: Authenticated web portal where existing Brandywine tenants submit service requests, access leases, and pay rent.
+        - term: Investor Relations
+          definition: Investor-facing section of brandywinerealty.com publishing SEC filings, earnings releases, presentations, and dividend history.
+        - term: SEC EDGAR
+          definition: U.S. Securities and Exchange Commission electronic filing system; Brandywine Realty Trust filings under CIK 0000790816.
+        - term: News & Views
+          definition: Brandywine's corporate news blog at blog.brandywinerealty.com, with a public RSS feed at /en/rss.xml.

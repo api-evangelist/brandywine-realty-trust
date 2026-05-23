@@ -1,0 +1,102 @@
+aid: brandywine-realty-trust
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/brandywine-realty-trust/refs/heads/main/apis.yml
+apis: []
+name: Brandywine Realty Trust
+description: >-
+  Brandywine Realty Trust (NYSE: BDN) is a publicly traded, fully integrated
+  real estate investment trust (REIT) headquartered at Cira Centre in
+  Philadelphia. The company owns, develops, leases, and manages a roughly
+  22 million square foot portfolio of office, life science, mixed-use,
+  multifamily, retail, and education properties concentrated in the Greater
+  Philadelphia, Austin, and Washington, D.C. markets. Brandywine is the
+  developer behind Schuylkill Yards, uCity Square, Uptown ATX, Broadmoor,
+  and Discovery Point, and has delivered roughly $2.6 billion and 12.1 million
+  square feet of ground-up developments, master-planned communities, and
+  adaptive reuse projects over a 30+ year operating history.
+tags:
+  - Commercial Real Estate
+  - Life Science Real Estate
+  - Mixed Use Development
+  - Office
+  - Philadelphia
+  - REIT
+  - Real Estate
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2026-05-03'
+modified: '2026-05-23'
+position: Consumer
+common:
+  - url: https://www.brandywinerealty.com/
+    name: Brandywine Realty Trust Website
+    type: Website
+    description: Official corporate website for Brandywine Realty Trust.
+  - url: https://www.brandywinerealty.com/about-us/leadership
+    name: Leadership
+    type: About
+    description: Executive leadership team and Board of Trustees.
+  - url: https://www.brandywinerealty.com/our-properties
+    name: Property Portfolio
+    type: Portfolio
+    description: >-
+      Searchable portfolio of more than 22 million square feet across
+      Philadelphia, Philadelphia Suburbs, South Jersey, Wilmington,
+      Northern Virginia / DC Metro, Suburban Maryland / DC Metro, Richmond,
+      and Austin markets, filterable by submarket, property type, amenities,
+      and operational status.
+  - url: https://www.brandywinerealty.com/development
+    name: Development
+    type: Portfolio
+    description: >-
+      Featured development projects including Schuylkill Yards (Philadelphia),
+      Uptown ATX (Austin), and Discovery Point (College Park, MD).
+  - url: https://www.brandywinerealty.com/responsibility
+    name: Responsibility
+    type: ESG
+    description: >-
+      Environmental, social, and governance program. ISS Governance Quality
+      Score of 1 (2024), MSCI ESG Rating A, Green Lease Leader Platinum
+      designation, and annual Corporate Social Responsibility Report.
+  - url: https://blog.brandywinerealty.com/en
+    name: News & Views Blog
+    type: Blog
+    description: Official Brandywine Realty Trust news and announcements blog.
+  - url: https://blog.brandywinerealty.com/en/rss.xml
+    name: News & Views RSS
+    type: RSS
+    description: RSS feed for the News & Views blog (10 most recent items).
+  - url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000790816&type=&dateb=&owner=include&count=40
+    name: SEC EDGAR Filings
+    type: DataFeed
+    description: Brandywine Realty Trust SEC EDGAR filings (CIK 0000790816).
+  - url: https://finance.yahoo.com/quote/BDN/
+    name: Yahoo Finance - BDN
+    type: MarketData
+    description: Stock price, financials, and news for BDN on Yahoo Finance.
+  - url: https://schuylkillyards.com
+    name: Schuylkill Yards
+    type: Project
+    description: >-
+      Master-planned innovation neighborhood in University City, Philadelphia,
+      adjacent to Amtrak's 30th Street Station. Includes FMC Tower / Cira
+      Centre South, Cira Centre, Bulletin Building, 3151 Market, 3025 JFK,
+      3020 Market, 3001 JFK, 3000 Market, Avira residential, and Gather
+      Food Hall.
+  - url: https://www.linkedin.com/company/brandywine-realty-trust
+    name: LinkedIn
+    type: LinkedIn
+    description: Brandywine Realty Trust company page on LinkedIn.
+  - url: https://twitter.com/BrandywineRT
+    name: Twitter / X
+    type: Twitter
+    description: Brandywine Realty Trust on Twitter / X.
+  - url: https://www.instagram.com/brandywinert/
+    name: Instagram
+    type: Instagram
+    description: Brandywine Realty Trust on Instagram.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+specificationVersion: '0.19'

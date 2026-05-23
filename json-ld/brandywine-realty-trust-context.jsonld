@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "bdn": "https://www.brandywinerealty.com/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gr": "http://purl.org/goodrelations/v1#",
+
+    "RealEstateOrganization": "https://schema.org/Organization",
+    "RealEstateListing": "https://schema.org/RealEstateListing",
+    "Place": "https://schema.org/Place",
+    "PostalAddress": "https://schema.org/PostalAddress",
+
+    "bdn:ticker": {"@type": "xsd:string"},
+    "bdn:exchange": {"@type": "xsd:string"},
+    "bdn:cik": {"@type": "xsd:string"},
+    "bdn:propertyType": {"@type": "xsd:string"},
+    "bdn:market": {"@type": "xsd:string"},
+    "bdn:squareFootage": {"@type": "xsd:decimal"},
+    "bdn:occupancyRate": {"@type": "xsd:decimal"},
+    "bdn:leedCertification": {"@type": "xsd:string"},
+    "bdn:developmentProject": {"@type": "xsd:string"},
+
+    "Corporation": "https://schema.org/Corporation",
+    "tickerSymbol": "https://schema.org/tickerSymbol",
+    "foundingDate": "https://schema.org/foundingDate",
+    "numberOfEmployees": "https://schema.org/numberOfEmployees",
+    "address": "https://schema.org/address",
+    "url": "https://schema.org/url"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.brandywinerealty.com/",
+      "@type": ["Corporation", "RealEstateOrganization"],
+      "name": "Brandywine Realty Trust",
+      "description": "Fully integrated REIT owning, developing, leasing, and managing a ~22 million square foot office, life science, mixed-use, multifamily, retail, and education portfolio concentrated in Philadelphia, Austin, and Washington, D.C.",
+      "tickerSymbol": "BDN",
+      "bdn:exchange": "NYSE",
+      "bdn:cik": "0000790816",
+      "url": "https://www.brandywinerealty.com/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cira Centre, 2929 Arch Street, Suite 1800",
+        "addressLocality": "Philadelphia",
+        "addressRegion": "PA",
+        "postalCode": "19104",
+        "addressCountry": "US"
+      },
+      "bdn:market": "Philadelphia, Austin, Washington DC",
+      "bdn:propertyType": "Office, Life Science, Mixed-Use, Residential, Retail, Education"
+    },
+    {
+      "@id": "https://schuylkillyards.com/",
+      "@type": "Place",
+      "name": "Schuylkill Yards",
+      "description": "Master-planned innovation neighborhood developed by Brandywine Realty Trust in University City, Philadelphia, adjacent to Amtrak's 30th Street Station.",
+      "bdn:developmentProject": "Schuylkill Yards"
+    },
+    {
+      "@id": "https://www.brandywinerealty.com/our-properties/uptown-atx",
+      "@type": "Place",
+      "name": "Uptown ATX",
+      "description": "66-acre mixed-use master-planned community in North Austin developed by Brandywine Realty Trust.",
+      "bdn:developmentProject": "Uptown ATX"
+    }
+  ]
+}
