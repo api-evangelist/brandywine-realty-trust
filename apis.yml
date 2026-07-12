@@ -29,6 +29,8 @@ created: '2026-05-03'
 modified: '2026-05-23'
 position: Consumer
 common:
+  - type: DomainSecurity
+    url: security/brandywine-realty-trust-domain-security.yml
   - url: https://www.brandywinerealty.com/
     name: Brandywine Realty Trust Website
     type: Website
