@@ -21,7 +21,7 @@ tags:
   - Office
   - Philadelphia
   - REIT
-  - Real-Estate
+  - Real Estate
 tags_raw:
   - Commercial Real Estate
   - Life Science Real Estate
@@ -30,6 +30,7 @@ tags_raw:
   - Philadelphia
   - REIT
   - Real Estate
+  - Real-Estate
 type: Index
 deliveryModel:
   model: unknown
