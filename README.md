@@ -64,81 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Brandywine Realty Trust (NYSE: BDN) is a publicly traded, fully integrated real estate investment trust (REIT) headquartered at Cira Centre in Philadelphia. The company owns, develops, leases, and manages a roughly 22 million square foot portfolio of office, life science, mixed-use, multifamily, retail, and education properties concentrated in the Greater Philadelphia, Austin, and Washington, D.C. markets.
+Brandywine Realty Trust (NYSE: BDN) is a publicly traded, fully integrated real estate investment trust (REIT) headquartered at Cira Centre in Philadelphia. The company owns, develops, leases, and manages a roughly 22 million square foot portfolio of office, life science, mixed-use, multifamily, retail, and education properties concentrated in the Greater Philadelphia, Austin, and Washington, D.C. markets. Brandywine is the developer behind Schuylkill Yards, uCity Square, Uptown ATX, Broadmoor, and Discovery Point, and has delivered roughly $2.6 billion and 12.1 million square feet of ground-up developments, master-planned communities, and adaptive reuse projects over a 30+ year operating history.
 
-**Website:** https://www.brandywinerealty.com/
-**Ticker:** NYSE: BDN
-**Headquarters:** Cira Centre, 2929 Arch Street, Suite 1800, Philadelphia, PA 19104
-**Tags:** Commercial Real Estate, REIT, Life Science Real Estate, Mixed Use Development, Philadelphia
+**Areas:** Commercial Real Estate · Life Science Real Estate · Mixed-Use Development · Office · Philadelphia · REIT · Real Estate
 
----
+## Brandywine Realty Trust on APIs.io
 
-## About
+Everything profiled for Brandywine Realty Trust is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/brandywine-realty-trust/](https://apis.io/providers/brandywine-realty-trust/)** — or go straight to one of the APIs or properties below.
 
-Brandywine has more than 30 years of operating history and has developed roughly $2.6 billion and 12.1 million square feet of ground-up developments, master-planned communities, and adaptive reuse projects. The portfolio is reported across eight markets:
+### Published properties
 
-- Philadelphia Suburbs (45 properties)
-- Richmond (19)
-- Austin (18)
-- Philadelphia (17)
-- South Jersey (9)
-- Northern Virginia / DC Metro (5)
-- Suburban Maryland / DC Metro (4)
-- Wilmington (2)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Properties are categorized as Office (116), Mixed-Use (22), Move-In Ready Office (12), Laboratory (8), Residential (2), Retail (2), and Education (1).
+#### JSON Schema (1)
 
-Brandywine is the developer behind several master-planned districts:
+The data models the API reads and writes.
 
-- **Schuylkill Yards** — innovation neighborhood in University City, Philadelphia, adjacent to Amtrak's 30th Street Station (FMC Tower, Cira Centre, Bulletin Building, 3151 Market, Avira, Gather Food Hall)
-- **uCity Square** — mixed-use life science and innovation district in University City
-- **Uptown ATX** — 66-acre mixed-use community in North Austin
-- **Broadmoor** — redevelopment of the historic Broadmoor campus in Austin
-- **Discovery Point** — mixed-use development near the University of Maryland in College Park
+- [Brandywine Property](https://apis.io/schemas/brandywine-realty-trust/brandywine-property/)
 
-ESG recognitions include an **ISS Governance Quality Score of 1** (2024), **MSCI ESG Rating A**, inaugural **Green Lease Leader Platinum** designation, and annual GRESB public disclosures (2020-2025).
+#### JSON-LD (1)
 
----
+Linked-data contexts for the provider's vocabulary.
 
-## APIs
+- [Brandywine Realty Trust Context](https://apis.io/jsonld/brandywine-realty-trust/brandywine-realty-trust-context/)
 
-Brandywine Realty Trust does not offer a public developer API, OpenAPI specification, SDK, CLI, or developer portal. The company does not maintain a GitHub organization. Stakeholder data and content are accessible through the following surfaces:
+#### Vocabulary (1)
 
-| Resource | Type | URL |
-|----------|------|-----|
-| Corporate Website | Website | https://www.brandywinerealty.com/ |
-| Property Portfolio | Portfolio | https://www.brandywinerealty.com/our-properties |
-| Development Projects | Portfolio | https://www.brandywinerealty.com/development |
-| Responsibility / ESG | ESG | https://www.brandywinerealty.com/responsibility |
-| Leadership | About | https://www.brandywinerealty.com/about-us/leadership |
-| News & Views Blog | Blog | https://blog.brandywinerealty.com/en |
-| News & Views RSS | RSS | https://blog.brandywinerealty.com/en/rss.xml |
-| SEC EDGAR (CIK: 0000790816) | DataFeed | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000790816 |
-| Yahoo Finance (BDN) | MarketData | https://finance.yahoo.com/quote/BDN/ |
-| Schuylkill Yards Microsite | Project | https://schuylkillyards.com |
-| LinkedIn | LinkedIn | https://www.linkedin.com/company/brandywine-realty-trust |
+The provider's domain terms, defined.
 
----
+- [Brandywine Realty Trust Vocabulary](https://apis.io/vocabularies/brandywine-realty-trust/brandywine-realty-trust-vocabulary/)
 
-## JSON Schema
+#### Governance rules (1)
 
-- [brandywine-property-schema.json](json-schema/brandywine-property-schema.json) — Schema for a Brandywine portfolio property (office, life science, mixed-use, residential, retail, or education) with market, submarket, development project, square footage, occupancy, and ESG certification fields.
+Spectral rulesets for the provider's contracts.
 
----
+- [Brandywine Realty Trust — jsonschema rules](https://apis.io/rules/brandywine-realty-trust/brandywine-realty-trust-jsonschema-spectral-rules/)
 
-## JSON-LD
+#### Security (1)
 
-- [brandywine-realty-trust-context.jsonld](json-ld/brandywine-realty-trust-context.jsonld) — Linked-data context aligning the Brandywine corporate entity, Schuylkill Yards, and Uptown ATX with schema.org `Corporation`, `RealEstateOrganization`, and `Place`.
+Authentication, trust centre, and vulnerability disclosure.
 
----
+- [Brandywine Realty Trust Domain Security](https://apis.io/security/brandywine-realty-trust/brandywine-realty-trust-domain-security/)
 
-## Vocabulary
+## Where to find this API
 
-- [brandywine-realty-trust-vocabulary.yml](vocabulary/brandywine-realty-trust-vocabulary.yml) — Domain vocabulary covering REIT finance terms, property types, markets, master-planned developments, ESG frameworks, and tenant / investor surfaces.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
----
+- [Website](https://www.brandywinerealty.com/)
+- [Blog](https://blog.brandywinerealty.com/en)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 7.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 6.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/brandywine-realty-trust/](https://apis.io/providers/brandywine-realty-trust/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Brandywine Realty Trust: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/brandywine-realty-trust/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
